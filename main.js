@@ -8,9 +8,6 @@ function makeRequest(url) {
 	});
 }
 
-const exchanges = ["cb", "gm"];
-const assets = ["btc", "eth"];
-
 const urls = {
 	"cb_btc": "https://api.pro.coinbase.com/products/BTC-USD/ticker",
 	"cb_eth": "https://api.pro.coinbase.com/products/ETH-USD/ticker",
@@ -66,9 +63,6 @@ function recommend(result) {
 				maxSellPrice = price;
 			}
 		}
-		console.log(asset);
-		console.log(minBuyExchange);
-		console.log(maxSellExchange);
 		const buyElemId = minBuyExchange + "_" + asset + "_buy";
 		const sellElemId = maxSellExchange + "_" + asset + "_sell";
 		document.getElementById(buyElemId).style.color = "#3D9970";
