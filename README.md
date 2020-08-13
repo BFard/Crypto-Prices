@@ -8,5 +8,6 @@ buy price and the highest sell price are both shown in
 <span style="color: #3D9970">olive</span>. The site is composed entirely of
 static files, so you can view it locally by cloning this repo and opening
 `index.html` in your favorite web browser. Alternatively, [click here](https://bfard.github.io/Crypto-Prices/) for a live demo.
+The Bitcoin and Ethereum icons are also obtained from Gemini. 
 
 ![Site screenshot](screenshot.PNG)
